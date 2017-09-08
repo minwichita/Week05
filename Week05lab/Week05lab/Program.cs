@@ -11,24 +11,37 @@ namespace Week05lab
         static void Main(string[] args)
 
         {
-            Console.WriteLine("---- Begin of While statement.");
-            int n = 1;
-            while (n < 1)
+            Console.Write("Input day name : ");
+            string Day = Console.ReadLine();
+            string message;
+            switch (Day.ToUpper())
             {
-                Console.WriteLine("  Current value of n is {0}", n);
-                n++;
+                case "SUN":
+                    message = "sun is Sunday, color Red";
+                    break;
+                case "MON":
+                    message = "mon is monday, color Yello";
+                    break;
+                case "TUE":
+                    message = "Tue is Tuesday, color Pink";
+                    break;
+                case "WED":
+                    message = "Wed is Wednesday, color Green";
+                    break;
+                case "THU":
+                    message = "Thu is Thursday, color Orange";
+                    break;
+                case "FRI":
+                    message = "Fri is Friday, color Blue";
+                    break;
+                case "SAT":
+                    message = "Sat is Saturday, color Purple";
+                    break;
+                default:
+                    message = "Incorrect day";
+                    break;
             }
-            Console.WriteLine("---- End of While statement.");
-
-            Console.WriteLine("---- Begin of Do..While statement.");
-            n = 1;
-            do
-            {
-                Console.WriteLine("  Current value of n is {0}", n);
-                n++;
-            }
-            while (n < 1);
-            Console.WriteLine("---- End of Do..While statement.");
+            Console.WriteLine(message);
 
 
 

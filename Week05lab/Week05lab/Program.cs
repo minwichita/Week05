@@ -9,23 +9,27 @@ namespace Week05lab
     class Program
     {
         static void Main(string[] args)
-        
+
+        {
+            int a = 10;
+            int b = 20;
+            if (a == 10)
             {
-            int a = 2;
-            if (a == 2)
-            {
-                Console.WriteLine("execute this line");
-            }
-            else
-            {
-                Console.WriteLine("execute another line too");
-            }
-            Console.WriteLine("this line is always execute");
+                if (b == 20)
+                {
+                    Console.WriteLine("a = 10 and b = 20");
+                }
+                if (b != 20)
+                {
+                    Console.WriteLine("a = 10 and b != 20");
 
 
+                }
+            }
         }
     }
-    }
+}
+
 
     
 

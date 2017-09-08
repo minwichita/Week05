@@ -11,10 +11,11 @@ namespace Week05lab
         static void Main(string[] args)
 
         {
-            for (int i = 1; i <= 5; i++)
-            {
-                Console.WriteLine(i);
-            }
+           for (int i = 1; i <= 12; i++)
+           {
+            	Console.WriteLine("{0, 2} x 2 = {1, 2}",i,i*2 );
+           }
+
 
 
 

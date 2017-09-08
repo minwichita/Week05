@@ -38,7 +38,7 @@ namespace Week05lab
         }
         private static int div(int a, int b)
         {
-            throw new NullReferenceException();
+            throw new FileNotFoundException ();
 
         }
     }

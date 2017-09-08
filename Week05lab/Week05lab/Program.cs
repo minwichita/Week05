@@ -11,10 +11,11 @@ namespace Week05lab
         static void Main(string[] args)
 
         {
-            int a = 0;
-            do a = 2;
-            while (false);
-            Console.WriteLine(a);
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine(i);
+            }
+
 
 
 

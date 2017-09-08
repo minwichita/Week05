@@ -10,14 +10,19 @@ namespace Week05lab
     {
         static void Main(string[] args)
         {
-            int a = 0;
-            int b = 10;
-            b /= a;
-            Console.WriteLine(a);
+
+            int value = 800000000;
+            checked // check for overflow
+            {
+                int square = value * value;
+                Console.WriteLine("{0} ^ 2 = {1}", value, square);
 
 
+
+            }
         }
     }
-    }
+}
+    
 
 
